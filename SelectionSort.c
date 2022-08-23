@@ -9,11 +9,6 @@ void SelectionSort(int arr[], int n) {
                 arr[min] = arr[j] ;
                 arr[j] = temp ;
             }
-        if (arr[i] != arr[min]) {
-            temp = arr[i] ;
-            arr[i] = arr[min] ;
-            arr[min] = temp ;
-        }
         }
     }
     for(int i = 0 ; i < n ; i++) {
